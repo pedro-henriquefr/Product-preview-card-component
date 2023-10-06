@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.produto {
+    display: flex;
+    background-color: white;
+    width: 520px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.produto .imagem img {
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.produto .conteudo {
+    padding: 20px;
+}
+
+.produto .conteudo .titulo p {
+    padding-bottom:10px;
+    color: grey;
+    font: 700;
+    font-family: Montserrat;
+}
+
+.produto .conteudo .titulo h2 {
+    text-align: left;
+    font: 700;
+    font-family: Fraunces;
+    font-size: 27px;
+}
+
+.produto .conteudo .info p {
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: grey;
+    font: 700;
+    font-family: Montserrat;
+}
+
+.produto .conteudo .preco {
+    display: flex;
+    padding: 10px;
+}
+
+.produto .conteudo .preco h5 {
+    padding-right: 10px;
+    font: 700;
+    font-family: Fraunces;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.produto .conteudo .preco p {
+    color: grey;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-decoration: line-through;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.produto .conteudo button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    font: 500;
+    font-family: Montser2rat;
+    font-size: 15px;
+    border: none;
+}
